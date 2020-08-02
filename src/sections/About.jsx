@@ -10,15 +10,12 @@ const About = () => {
           <div className="about__text--justify">
             I'm a software developer with over{" "}
             <strong>one year of professional experience</strong> in various{" "}
-            <strong>front end and back end technologies</strong>.
-            <br />
-            I'm <strong>most comfortable with JavaScript</strong> and its
-            related technologies, but I consider myself a{" "}
-            <strong>fast learner</strong>.<br></br>
+            <strong>front end and back end technologies</strong>. I'm{" "}
+            <strong>most comfortable with JavaScript</strong> and its related
+            technologies, but I consider myself a <strong>fast learner</strong>.
             If I need to use a technology I don't know yet, I'll{" "}
-            <strong>rise to the occasion</strong> and learn it quickly.
-            <br />
-            In my free time I enjoy lifting weights, playing video games, and
+            <strong>rise to the occasion</strong> and learn it quickly. In my
+            free time I enjoy lifting weights, playing video games, and
             listening to music.
           </div>
         </div>

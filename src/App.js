@@ -4,6 +4,7 @@ import Intro from "./sections/Intro";
 import CategoryContextProvider from "./context/Category";
 import "./App.css";
 import About from "./sections/About";
+import Projects from "./sections/Projects";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <CategoryContextProvider>
         <About />
       </CategoryContextProvider>
+      <Projects />
     </div>
   );
 }

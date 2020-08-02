@@ -89,3 +89,37 @@ export const SKILLS = {
     },
   ]
 };
+
+export const PROJECTS = [
+  {
+    name: 'Talent Trade',
+    code: 'https://github.com/chingu-voyages/v8-geckos-team-05/',
+    src: 'talentTrade.png',
+    langs: ['React', 'SASS']
+  },
+  {
+    name: 'Google Library',
+    code: 'https://github.com/chrisfotso/chingu-api-project',
+    live: 'https://chrisfotso.github.io/chingu-api-project',
+    src: 'googleLibrary.png',
+    langs: ['HTML', 'CSS', 'JavaScript']
+  },
+  {
+    name: 'Tidbits (Twitter Clone)',
+    code: 'https://github.com/chrisfotso/tidbits',
+    langs: ['React', 'Mongo', 'Express']
+  },
+  {
+    name: 'Superhero Search',
+    code: 'https://github.com/chrisfotso/superhero-search',
+    live: 'https://superhero-search.herokuapp.com/',
+    src: 'superheroSearch.png',
+    langs: ['Express']
+  },
+  {
+    name: 'Portfolio Site',
+    code: 'https://github.com/chrisfotso/chrisfotso.github.io/tree/saving-work',
+    live: 'https://chrisfotso.github.io',
+    langs: ['React', 'SASS']
+  }
+]
