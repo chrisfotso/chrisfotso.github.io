@@ -1,6 +1,6 @@
 import React from 'react'
 import NavbarItem from './NavbarItem'
-import { NAVBAR_ITEMS } from '../data';
+import { NAVBAR_ITEMS } from '../constants';
 
 const Navbar = () => {
     return (
