@@ -1,8 +1,10 @@
 import React from 'react'
 
-const NavbarItem = ({ text, id }) => {
+const NavbarItem = ({ text, dest, isNewTab }) => {
   return (
-    <a href={id}>{text}</a>
+    <a className="navbar__link" href={dest} target={isNewTab ? '_blank' : '_self'}>
+      <li className="navbar__item">{text}</li>
+    </a>
   )
 }
 

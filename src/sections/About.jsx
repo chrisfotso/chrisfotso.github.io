@@ -1,0 +1,34 @@
+import React from "react";
+import Skills from "../components/Skills";
+import CategoryPicker from "../components/CategoryPicker";
+
+const About = () => {
+  return (
+    <div className="about__container">
+      <section className="about">
+        <div className="about__text">
+          <div className="about__text--justify">
+            I'm a software developer with over{" "}
+            <strong>one year of professional experience</strong> in various{" "}
+            <strong>front end and back end technologies</strong>.
+            <br />
+            I'm <strong>most comfortable with JavaScript</strong> and its
+            related technologies, but I consider myself a{" "}
+            <strong>fast learner</strong>.<br></br>
+            If I need to use a technology I don't know yet, I'll{" "}
+            <strong>rise to the occasion</strong> and learn it quickly.
+            <br />
+            In my free time I enjoy lifting weights, playing video games, and
+            listening to music.
+          </div>
+        </div>
+        <Skills />
+        <div className="about__picker">
+          <CategoryPicker />
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default About;

@@ -4,9 +4,10 @@ import { NAVBAR_ITEMS } from '../data';
 
 const Navbar = () => {
     return (
-        <nav>
-          { NAVBAR_ITEMS.map(item => <NavbarItem {...item} />)}
-        </nav>
+      <nav class="navbar">
+        <span className="navbar__logo">CF</span>
+        <ul className="navbar__items">{ NAVBAR_ITEMS.map(item => <NavbarItem {...item} />)}</ul>
+      </nav>
     )
 }
 
