@@ -107,6 +107,7 @@ export const PROJECTS = [
   {
     name: 'Tidbits (Twitter Clone)',
     code: 'https://github.com/chrisfotso/tidbits',
+    src: 'tidbits.png',
     langs: ['React', 'Mongo', 'Express']
   },
   {
@@ -114,12 +115,12 @@ export const PROJECTS = [
     code: 'https://github.com/chrisfotso/superhero-search',
     live: 'https://superhero-search.herokuapp.com/',
     src: 'superheroSearch.png',
-    langs: ['Express']
+    langs: ['Express', 'Mongo']
   },
   {
-    name: 'Portfolio Site',
+    name: 'Portfolio Site (you\'re already on it!)',
     code: 'https://github.com/chrisfotso/chrisfotso.github.io/tree/saving-work',
-    live: 'https://chrisfotso.github.io',
+    src: 'portfolioSite.png',
     langs: ['React', 'SASS']
   }
 ]

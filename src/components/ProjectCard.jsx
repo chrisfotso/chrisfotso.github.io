@@ -5,7 +5,7 @@ import { faCode, faLink } from '@fortawesome/free-solid-svg-icons';
 const ProjectCard = (props) => {
   const languageMapper = (l, i, arr) => (i === arr.length - 1 ? l : `${l}, `);
   return (
-    <a className="project__link" href={props.code}>
+    <a className="project__link" href={props.code} target="_blank">
       <article className="project">
         <span className="project__imageContainer">
           <img

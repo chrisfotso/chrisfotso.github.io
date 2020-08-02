@@ -19,10 +19,12 @@ const About = () => {
             listening to music.
           </div>
         </div>
-        <Skills />
+        <br/>
+        <hr/>
         <div className="about__picker">
           <CategoryPicker />
         </div>
+        <Skills />
       </section>
     </div>
   );

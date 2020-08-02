@@ -4,11 +4,14 @@ import ProjectCard from '../components/ProjectCard';
 
 const Projects = () => {
   return (
-    <div className="projects__container">
+    <React.Fragment>
+      <div className="projects__container">
+      <br/>
       <section className="projects">
         { PROJECTS.map(proj => <ProjectCard {...proj} />)}
       </section>
     </div>
+    </React.Fragment>
   )
 }
 
