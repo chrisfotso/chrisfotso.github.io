@@ -55,7 +55,7 @@ $gray: #656576;
 
   &__container {
     background: $dark-blue;
-    min-height: 100vh;
+    min-height: 95vh;
     min-width: 100vw;
     display: flex;
     justify-content: center;
@@ -184,6 +184,8 @@ $gray: #656576;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 5px;
 
   &__container {
     background: $off-white;
@@ -229,10 +231,43 @@ $gray: #656576;
     padding: 5px;
     color: $off-black;
     text-decoration: none;
+    &:hover {
+      color: $gray;
+    }
   }
   &__image {
-    border-bottom: 1px solid $off-black;
     width: 100%;
     height: auto;
+  }
+}
+
+.contact {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: $dark-blue;
+  color: $off-white;
+  min-height: 200px;
+  &__icons {
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 15%;
+    min-width: 200px;
+  }
+  &__icon {
+    font-size: 2em;
+    text-decoration: none;
+    color: $off-white;
+  }
+  &__container {
+    // margin-top: 50px;
+  }
+  &__header {
+    text-align: center;
+    color: $off-white;
+    font-size: 2em;
   }
 }

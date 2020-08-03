@@ -1,12 +1,12 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const SocialIcon = ({ icon, dest }) => {
+const Icon = ({ icon, dest, className }) => {
   return (
-    <a href={dest} target="_blank" className="social__link">
+    <a href={dest} target="_blank" className={className}>
       <FontAwesomeIcon icon={icon}/>
     </a>
   )
 }
 
-export default SocialIcon
+export default Icon

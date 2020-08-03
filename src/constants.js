@@ -1,6 +1,6 @@
 import PDF from "./resume.pdf";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faFileAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export const NAVBAR_ITEMS = [
   {
@@ -30,6 +30,21 @@ export const SOCIAL_ITEMS = [
   {
     icon: faFileAlt,
     dest: PDF,
+  },
+];
+
+export const CONTACT_ITEMS = [
+  {
+    icon: faLinkedin,
+    dest: "http://linkedin.com/in/chrisfotso",
+  },
+  {
+    icon: faGithub,
+    dest: "https://github.com/chrisfotso",
+  },
+  {
+    icon: faEnvelope,
+    dest: "mailto:chrisfotso@gmail.com",
   },
 ];
 
@@ -83,44 +98,44 @@ export const SKILLS = {
       link: "https://www.mysql.com/",
     },
     {
-      name: 'MongoDB',
+      name: "MongoDB",
       src: "https://img.icons8.com/color/96/000000/mongodb.png",
-      link: 'https://mongodb.com/',
+      link: "https://mongodb.com/",
     },
-  ]
+  ],
 };
 
 export const PROJECTS = [
   {
-    name: 'Talent Trade',
-    code: 'https://github.com/chingu-voyages/v8-geckos-team-05/',
-    src: 'talentTrade.png',
-    langs: ['React', 'SASS']
+    name: "Talent Trade",
+    code: "https://github.com/chingu-voyages/v8-geckos-team-05/",
+    src: "talentTrade.png",
+    langs: ["React", "SASS"],
   },
   {
-    name: 'Google Library',
-    code: 'https://github.com/chrisfotso/chingu-api-project',
-    live: 'https://chrisfotso.github.io/chingu-api-project',
-    src: 'googleLibrary.png',
-    langs: ['HTML', 'CSS', 'JavaScript']
+    name: "Google Library",
+    code: "https://github.com/chrisfotso/chingu-api-project",
+    live: "https://chrisfotso.github.io/chingu-api-project",
+    src: "googleLibrary.png",
+    langs: ["HTML", "CSS", "JavaScript"],
   },
   {
-    name: 'Tidbits (Twitter Clone)',
-    code: 'https://github.com/chrisfotso/tidbits',
-    src: 'tidbits.png',
-    langs: ['React', 'Mongo', 'Express']
+    name: "Tidbits (Twitter Clone)",
+    code: "https://github.com/chrisfotso/tidbits",
+    src: "tidbits.png",
+    langs: ["React", "Mongo", "Express"],
   },
   {
-    name: 'Superhero Search',
-    code: 'https://github.com/chrisfotso/superhero-search',
-    live: 'https://superhero-search.herokuapp.com/',
-    src: 'superheroSearch.png',
-    langs: ['Express', 'Mongo']
+    name: "Superhero Search",
+    code: "https://github.com/chrisfotso/superhero-search",
+    live: "https://superhero-search.herokuapp.com/",
+    src: "superheroSearch.png",
+    langs: ["Express", "Mongo"],
   },
   {
-    name: 'Portfolio Site (you\'re already on it!)',
-    code: 'https://github.com/chrisfotso/chrisfotso.github.io/tree/saving-work',
-    src: 'portfolioSite.png',
-    langs: ['React', 'SASS']
-  }
-]
+    name: "Portfolio Site (you're already on it!)",
+    code: "https://github.com/chrisfotso/chrisfotso.github.io/tree/saving-work",
+    src: "portfolioSite.png",
+    langs: ["React", "SASS"],
+  },
+];
