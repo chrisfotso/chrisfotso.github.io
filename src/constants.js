@@ -1,6 +1,6 @@
 import PDF from "./resume.pdf";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faFileAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faFileAlt, faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
 
 export const NAVBAR_ITEMS = [
   {
@@ -28,17 +28,6 @@ export const SOCIAL_ITEMS = [
     dest: "http://linkedin.com/in/chrisfotso",
   },
   {
-    icon: faFileAlt,
-    dest: PDF,
-  },
-];
-
-export const CONTACT_ITEMS = [
-  {
-    icon: faLinkedin,
-    dest: "http://linkedin.com/in/chrisfotso",
-  },
-  {
     icon: faGithub,
     dest: "https://github.com/chrisfotso",
   },
@@ -46,6 +35,10 @@ export const CONTACT_ITEMS = [
     icon: faEnvelope,
     dest: "mailto:chrisfotso@gmail.com",
   },
+  {
+    icon: faFileAlt,
+    dest: PDF
+  }
 ];
 
 export const SKILLS = {

@@ -1,6 +1,7 @@
 import React from "react";
 import { CONTACT_ITEMS } from "../constants";
 import Icon from "../components/icons/Icon";
+import SocialIcons from "../components/icons/SocialIcons";
 
 const Contact = () => {
   return (
@@ -8,9 +9,7 @@ const Contact = () => {
       <section className="contact">
         <h1 className="contact__header">Let's get in touch!</h1>
         <div className="contact__icons">
-          {CONTACT_ITEMS.map((item) => (
-            <Icon {...item} className="contact__icon" />
-          ))}
+          <SocialIcons />
         </div>
       </section>
     </div>
