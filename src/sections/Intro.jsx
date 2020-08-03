@@ -1,5 +1,5 @@
 import React from 'react'
-import SocialIcons from '../components/SocialIcons'
+import SocialIcons from '../components/icons/SocialIcons'
 
 const Intro = () => {
   return (

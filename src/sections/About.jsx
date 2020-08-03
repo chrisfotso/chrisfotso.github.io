@@ -1,6 +1,6 @@
 import React from "react";
-import Skills from "../components/Skills";
-import CategoryPicker from "../components/CategoryPicker";
+import Skills from "../components/skills/Skills";
+import CategoryPicker from '../components/skills/CategoryPicker'
 
 const About = () => {
   return (

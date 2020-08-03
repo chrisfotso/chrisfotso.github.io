@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { CategoryContext } from "../context/Category";
+import { CategoryContext } from "../../context/Category";
 
 const CategoryPicker = () => {
   const CATEGORIES = ["Front End", "Back End"];

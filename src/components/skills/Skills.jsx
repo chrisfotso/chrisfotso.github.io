@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useContext } from "react";
-import { SKILLS } from "../constants";
-import { CategoryContext } from "../context/Category";
-import { library } from "@fortawesome/fontawesome-svg-core";
+import { SKILLS } from "../../constants";
+import { CategoryContext } from "../../context/Category";
 import Skill from "./Skill";
 
 const Skills = () => {

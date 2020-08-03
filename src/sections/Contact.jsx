@@ -1,6 +1,6 @@
 import React from "react";
 import { CONTACT_ITEMS } from "../constants";
-import Icon from "../components/Icon";
+import Icon from "../components/icons/Icon";
 
 const Contact = () => {
   return (

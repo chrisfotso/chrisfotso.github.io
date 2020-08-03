@@ -9,7 +9,7 @@ const ProjectCard = (props) => {
       <article className="project">
         <span className="project__imageContainer">
           <img
-            src={props.src ? require(`../images/projects/${props.src}`) : ""}
+            src={props.src ? require(`../../images/projects/${props.src}`) : ""}
             alt={props.name}
             className="project__image"
           />
