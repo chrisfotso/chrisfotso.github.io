@@ -134,7 +134,7 @@ export const PROJECTS = [
   },
   {
     name: "Portfolio Site (you're already on it!)",
-    code: "https://github.com/chrisfotso/chrisfotso.github.io/tree/saving-work",
+    code: "https://github.com/chrisfotso/chrisfotso.github.io/tree/code",
     src: "portfolioSite.png",
     langs: ["React", "SASS"],
   },
