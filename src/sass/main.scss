@@ -23,33 +23,6 @@ $gray: #656576;
   color: $off-black;
 }
 
-.navbar {
-  display: flex;
-  font-size: 1.25em;
-  justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0);
-
-  &__logo {
-    font-weight: 800;
-  }
-
-  &__items {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-  }
-
-  &__link {
-    color: $off-black;
-    text-decoration: none;
-    margin: 0px 5px 0px 0px;
-  }
-
-  &__item {
-    font-weight: 700;
-  }
-}
-
 .intro {
   color: $off-white;
 
@@ -97,6 +70,10 @@ $gray: #656576;
   line-height: 2;
   width: 70vw;
   margin: 50px 0px 0px 0px;
+
+  @media screen and (max-width: 650px) {
+    width: 90vw;
+  }
 
   &__picker {
     margin: 50px 0px 50px 0px;
@@ -158,6 +135,7 @@ $gray: #656576;
 
 .skill {
   display: flex;
+  margin: 5px;
   flex-direction: column;
   align-items: center;
 
@@ -177,6 +155,10 @@ $gray: #656576;
   justify-content: space-between;
   width: 100%;
   list-style: none;
+
+  @media screen and (max-width: 650px) {
+    justify-content: center;
+  }
 }
 
 .projects {
